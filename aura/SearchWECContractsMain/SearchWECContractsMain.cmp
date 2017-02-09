@@ -1,0 +1,47 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,force:hasRecordId" access="global" controller="WECContractSummaryCtrl">
+
+    <aura:attribute name="searchResults" type="WECContractSummaryCtrl.wrapperClass[]"/>
+    <aura:attribute name="recordId" type="Id" />
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:handler name="searchWECContractEvent" event="c:SearchWECContractsEvent"  action="{!c.handleSearch}"/>
+
+            
+   <!-- BOXED AREA -->
+  <fieldset class="slds-box slds-theme--shade slds-container--small">     
+      
+    <!-- PAGE HEADER -->
+    <div class="slds-page-header" role="banner">
+  
+        
+      <div class="slds-grid">
+        <div class="slds-col">
+			<lightning:icon iconName="standard:forecasts" size="x-small" alternativeText="Indicates approval"/><b class="slds-text-heading--x-small">  Search WEC Contracts </b>
+        </div>
+      </div>
+    </div>
+    <!-- / PAGE HEADER -->
+
+    <!-- SEARCH FORM -->
+    <div class="slds-col slds-col--padded slds-p-top--small">
+
+           <c:SearchWECContractsForm /> 
+
+    </div>
+    <!-- / SEARCH FORM -->
+
+    <!-- DISPLAY RESULTS -->
+    <div class="slds-grid slds-m-top--small" style="height:180px;" >
+
+        <!-- RESULTS LIST -->
+        <div class="slds-col slds-col-rule--right slds-p-around--xxx-small">
+            <c:SearchWECContractsResultsList searchResults="{!v.searchResults}" accID="{!v.recordId}"/> 
+        </div>
+        <!-- / RESULTS LIST -->
+    </div>
+    <!-- / DISPLAY RESULTS -->
+
+          </fieldset>
+  <!-- / BOXED AREA -->
+    
+	
+</aura:component>

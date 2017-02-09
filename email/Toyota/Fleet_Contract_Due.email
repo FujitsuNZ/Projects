@@ -1,0 +1,10 @@
+Dear {!Opportunity.Contact_Name__c},
+
+You fleet contract is due. 
+Contract Close date : {!Opportunity.CloseDate}
+
+Click the below URL to open the record : 
+{!Opportunity.Lightning_Record_URL__c}
+
+Thanks,
+Toyota Team

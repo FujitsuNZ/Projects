@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ownership</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ownerships</value>
+    </caseValues>
+    <fields>
+        <label><!-- Dealer --></label>
+        <name>Dealer__c</name>
+        <relationshipLabel><!-- Ownerships (Dealer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fleet / Lease Owner --></label>
+        <name>Fleet_Lease_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fleet / Lease Ownership --></label>
+        <name>Fleet_Lease_Ownership__c</name>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation><!-- L --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Insurance Company --></label>
+        <name>Insurance_Company__c</name>
+        <relationshipLabel><!-- Ownerships (Insurance Company) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Touch Point Date --></label>
+        <name>Last_Touch_Point_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Touch Point From --></label>
+        <name>Last_Touch_Point_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ownership Start --></label>
+        <name>Ownership_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ownership Status --></label>
+        <name>Ownership_Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incomplete</masterLabel>
+            <translation><!-- Incomplete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unconfirmed</masterLabel>
+            <translation><!-- Unconfirmed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Registered Owner Name --></label>
+        <name>Registered_Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registered Owner --></label>
+        <name>Registered_Owner__c</name>
+        <relationshipLabel><!-- Ownerships --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Make --></label>
+        <name>Vehicle_Make__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Model --></label>
+        <name>Vehicle_Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Plate --></label>
+        <name>Vehicle_Plate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Year --></label>
+        <name>Vehicle_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle --></label>
+        <name>Vehicle__c</name>
+        <relationshipLabel><!-- Ownerships --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Ownership Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Relationships --></label>
+            <section>Relationships</section>
+        </sections>
+        <sections>
+            <label><!-- Vehicle --></label>
+            <section>Vehicle</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

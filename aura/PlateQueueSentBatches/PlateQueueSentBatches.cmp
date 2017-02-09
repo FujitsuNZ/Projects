@@ -1,0 +1,41 @@
+<aura:component controller="PlateQueueComponentController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome" access="global" >
+	
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="queueBatches" type="List" />
+    <aura:attribute name="offset" type="integer" />
+    <aura:attribute name="next" type="boolean" />
+    <aura:attribute name="prev" type="boolean" />
+    
+    <div class="slds-page-header">
+        <p class="slds-page-header__title">Plate Queue Batches</p>
+    </div>
+    
+    <table class="slds-table slds-table--bordered">
+        <thead>
+            <tr class="slds-text-title--caps">
+                <th scope="col"><div class="slds-truncate" >Batch Number</div></th>
+                <th scope="col"><div class="slds-truncate">Start Plate</div></th>  
+                <th scope="col"><div class="slds-truncate" >Date Sent to NZTA</div></th>
+                <th scope="col"><div class="slds-truncate" >Records</div></th>
+                <th scope="col"><div class="slds-truncate" >User</div></th>
+                <th scope="col"><div class="slds-truncate" ></div></th>
+            </tr>   
+        </thead> 
+        <tbody>
+            <aura:iteration items="{!v.queueBatches}" var="data" >
+                <tr class="slds-text-title--caps">
+                    <td ><a href="{!'/one/one.app?#/sObject/'+data.Id+'/view'}">{!data.Name}</a></td>                             
+                    <td ><ui:outputText value="{!data.Start_Plate__c}"/></td>
+                    <td ><ui:outputText value="{!data.Date_Sent__c}"/></td>
+                    <td ><ui:outputText value="{!data.Records__c}"/></td>
+                    <td ><a href="{!'/one/one.app?#/sObject/'+data.CreatedById+'/view'}">{!data.CreatedBy.Name}</a></td>
+                    <td ><button type="button" class="slds-button slds-button--brand" onclick="{!c.processCsv}" id="{!data.Id}">Download</button></td> 
+                </tr>
+            </aura:iteration>
+        </tbody>      
+    </table>
+    <br/>
+     <ui:button class="slds-button slds-button--brand slds-button--neutral slds-p-horizontal--xx-small slds-m-right--x-small slds-float--right" press="{!c.next}" label="Next" disabled="{!v.next}" />
+     <ui:button class="slds-button slds-button--brand slds-button--neutral slds-p-horizontal--xx-small slds-m-right--x-small slds-float--right" press="{!c.previous}" label="Previous" disabled="{!v.prev}"/>
+      
+</aura:component>

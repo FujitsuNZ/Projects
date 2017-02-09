@@ -1,0 +1,33 @@
+<aura:component controller="CompaniesOfficeSearchCtrl">
+    <aura:attribute name="searchResult" type="CompaniesOfficeSearchCtrl.wrapperClass"/>
+    <aura:attribute name="accID" type="Id" />
+    
+    <div class="slds-card">
+
+            <header class="slds-card__header slds-grid grid--flex-spread">
+                    <h3>{!v.searchResult.cname}</h3>
+            </header>
+
+            <section class="slds-card__body">
+                <div class="slds-tile slds-hint-parent">
+                    <p class="slds-tile__title slds-wrap slds-p-left--small"> 
+                        <ui:outputText class="slds-text-title" value="NZBN:  " /><ui:outputText value="{!v.searchResult.nzbn}" /><br></br>
+                        <ui:outputText class="slds-text-title" value="Company Number:  " /><ui:outputText value="{!v.searchResult.companynumber}"/><br></br>
+                        <ui:outputText class="slds-text-title" value="Type:  " /><ui:outputText value="{!v.searchResult.ctype}"/><br></br>
+                        <ui:outputText class="slds-text-title" value="Status:  " /><ui:outputText value="{!v.searchResult.cstatus}"/><br></br>
+                        <ui:outputText class="slds-text-title" value="Start Date:  " /><ui:outputDate value="{!v.searchResult.cstart}"/><br></br>
+                        <ui:outputText class="slds-text-title" value="Address:  " /><br></br>
+                        <ui:outputText value="{!v.searchResult.streetaddress}"/>
+                        <ui:button label="Update CRM"
+              					class="slds-button slds-button--brand slds-float--right"
+              					press="{!c.updateCRM}"  /><br></br>
+                        <ui:outputText value="{!v.searchResult.city}"/>
+                        <ui:outputText value="{!', ' + v.searchResult.postcode}"/><br></br>
+
+                        <ui:outputText value="{!v.searchResult.country}"/> 
+                    </p>
+                </div>
+            </section>
+        </div>
+
+</aura:component>

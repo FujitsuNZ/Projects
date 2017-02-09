@@ -1,0 +1,33 @@
+<aura:component controller="WECContractSummaryCtrl">
+    <aura:attribute name="searchResult" type="WECContractSummaryCtrl.wrapperClass"/>
+    <aura:attribute name="accID" type="Id" />
+    
+    <div class="slds-card">
+
+            <section class="slds-card__body">
+                <div class="slds-tile slds-hint-parent">
+                    <p class="slds-tile__title slds-wrap slds-p-left--small"> 
+                        
+                        <aura:if isTrue="{!v.searchResult.Error}">
+                            <ui:outputText value="{!v.searchResult.ErrorMsg}" /><br></br>
+                            
+                        <aura:set attribute="else">
+
+                                <ui:outputText class="slds-text-title" value="Contract ID:  " /><ui:outputText value="{!v.searchResult.ContractID}" /><br></br>
+                                <ui:outputText class="slds-text-title" value="GUID:  " /><ui:outputText value="{!v.searchResult.TNZVehicleGUID}" /><br></br>
+                                <ui:outputText class="slds-text-title" value="Contract Status:  " /><ui:outputText value="{!v.searchResult.ContractStatus}"/><br></br>
+                                <ui:outputText class="slds-text-title" value="Start Date:  " /><ui:outputText value="{!v.searchResult.StartDate}"/><br></br>
+                                <ui:outputText class="slds-text-title" value="Selling Agent Code:  " /><ui:outputText value="{!v.searchResult.SellingRetailAgentCode}"/><br></br>
+                                <ui:outputText class="slds-text-title" value="Product Price:  " /><ui:outputDate value="{!v.searchResult.ProductPrice}"/><br></br>
+                                <ui:outputText class="slds-text-title" value="Product Name:  " /><ui:outputText value="{!v.searchResult.ProductName}"/><br></br>
+                                <ui:outputText class="slds-text-title" value="Campaign ID:  " /><ui:outputText value="{!v.searchResult.CampaignID}"/><br></br>
+                                <ui:outputText class="slds-text-title" value="Campaign Name:  " /><ui:outputDate value="{!v.searchResult.CampaignName}"/><br></br>
+                            
+                            </aura:set>
+                        </aura:if>
+                    </p>
+                </div>
+            </section>
+        </div>
+
+</aura:component>

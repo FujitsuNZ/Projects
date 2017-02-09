@@ -1,0 +1,54 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:hasSObjectName"  controller="RelatedListController">
+    
+    <aura:attribute name="sobjectList"  type="List"/>
+    <aura:handler name="init" value="{!this}" action="{!c.fetchPlateHistoryAction}" />
+
+    <div class="slds-page-header slds-text-title--caps"> Plate History </div>
+
+    <ui:message aura:id="idMessage" class="slds-hide"  title="Information" severity="info" >
+        No Records Found.
+    </ui:message>    
+   
+    <table class="{!v.sobjectList.length>0?'slds-table slds-table--bordered slds-table--cell-buffer':'slds-hide'}">
+        <thead>
+            <tr class="slds-text-title--caps">
+              <th scope="col">
+                    <div class="slds-truncate" >Plate History</div>
+              </th>
+              <th scope="col">
+                    <div class="slds-truncate" >Registration Plate</div>
+              </th>
+              <th scope="col">
+                    <div class="slds-truncate" >Plate Type</div>
+              </th>
+              <th scope="col">
+                <div class="slds-truncate" >Plate</div>
+              </th>
+              <th scope="col">
+                <div class="slds-truncate" >Plate Assignment Changed Date</div>
+              </th>
+            </tr>
+      </thead> 
+      <tbody>
+      <aura:iteration items="{!v.sobjectList}" var="v" >
+            <tr class="slds-text-title--caps">
+               <td >
+                   <a href="{!'/one/one.app?#/sObject/'+ v.Id+ '/view'}" >{!v.Name}</a>
+               </td>
+               <td >
+                  <div class="slds-truncate" >{!v.Registration_Plate__c}</div>
+               </td>  
+               <td >
+                  <div class="slds-truncate" >{!v.Plate_Type__c}</div>
+               </td>
+               <td >
+                   <a href="{!'/one/one.app?#/sObject/'+ v.Plate__c	+ '/view'}" >{!v.Plate__r.Name}</a>
+               </td>
+               <td >
+                <ui:outputDate value="{!v.Plate_Assignment_Changed_Date__c}"/>
+               </td>
+            </tr>
+        </aura:iteration>
+       </tbody>      
+    </table>
+</aura:component>

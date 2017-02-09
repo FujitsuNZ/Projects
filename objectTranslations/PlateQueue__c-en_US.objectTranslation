@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plate Queue</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Plate Queues</value>
+    </caseValues>
+    <fields>
+        <label><!-- Date Received --></label>
+        <name>Date_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Sent --></label>
+        <name>Date_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plate Number --></label>
+        <name>Plate_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plate Queue Batch --></label>
+        <name>Plate_Queue_Batch__c</name>
+        <relationshipLabel><!-- Plate Queues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Send to NZTA --></label>
+        <name>Send_to_NZTA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received - Not Valid</masterLabel>
+            <translation><!-- Received - Not Valid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received - Valid</masterLabel>
+            <translation><!-- Received - Valid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- VIN --></label>
+        <name>VIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle --></label>
+        <name>Vehicle__c</name>
+        <relationshipLabel><!-- Plate Queues --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Plate Queue Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Queue Publishing Details --></label>
+            <section>Queue Publishing Details</section>
+        </sections>
+        <sections>
+            <label><!-- Vehicle Information (If Available) --></label>
+            <section>Vehicle Information (If Available)</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

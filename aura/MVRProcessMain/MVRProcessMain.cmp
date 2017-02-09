@@ -1,0 +1,75 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" controller="MVRProcessBatchSubmit">
+
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+
+            
+   <!-- BOXED AREA -->
+  <fieldset class="slds-box slds-theme--shade slds-container--small">     
+      
+    <!-- PAGE HEADER -->
+    <div class="slds-page-header" role="banner">
+  
+        
+      <div class="slds-grid">
+        <div class="slds-col">
+			<lightning:icon iconName="standard:forecasts" size="x-small" alternativeText="Indicates approval"/><b class="slds-text-heading--x-small">  MVR Processes </b>
+        </div>
+      </div>
+    </div>
+    <!-- / PAGE HEADER -->
+
+    <!-- FORM -->
+    <div class="slds-col slds-col--padded slds-p-top--small">
+        
+    <!-- CARD -->        
+    <div class="slds-card">        
+    	<section class="slds-card__body">
+             <div class="slds-tile slds-hint-parent">
+                 <p class="slds-tile__title slds-wrap slds-p-left--small"> 
+
+        			<ui:outputText class="slds-text-title" value="please run the pre-processes prior to the CRM Update, as this process checks the following:  " /><br></br>
+        			<ui:outputText class="slds-text-title" value="1. Company details are correct - by accessing the Companies Office API.  " /><br></br>
+        			<ui:outputText class="slds-text-title" value="2. Address details are correct - by accessing the NZPost Address API.  " /><br></br>
+        			<ui:outputText class="slds-text-title" value="3. Retrieves Vehicle data from VMS for Toyota Vehicles.  " /><br></br>
+       
+      				<div class="slds-form-element">
+          				<ui:button label="Submit Pre-Process"
+              				class="slds-button slds-button--brand"
+              				press="{!c.submitPreProcess}"/><br></br>
+                     </div>
+
+                    </p>
+                </div>
+            </section>            
+        </div>
+    <!-- / CARD -->        
+        
+    <!-- CARD -->        
+    <div class="slds-card">        
+    	<section class="slds-card__body">
+             <div class="slds-tile slds-hint-parent">
+                 <p class="slds-tile__title slds-wrap slds-p-left--small"> 
+       
+      				<ui:outputText class="slds-text-title" value="this process will update the CRM data tables with the MVR records with a blank date:  " /><br></br>
+                     
+      				<div class="slds-form-element">
+          				<ui:button label="Submit CRM Update Process"
+              						class="slds-button slds-button--destructive"
+              						press="{!c.submitCRMProcess}"/><br></br>
+                     </div>
+
+                    </p>
+                </div>
+            </section>            
+        </div>
+    <!-- / CARD -->                
+        
+        
+    </div>
+    <!-- / FORM -->
+
+          </fieldset>
+  <!-- / BOXED AREA -->
+    
+	
+</aura:component>

@@ -1,0 +1,46 @@
+<aura:component controller="platehistoryDemo" >
+    <aura:handler name="init" value="{!this}" action="{!c.updateplatehistory}" />
+    <aura:attribute name="vehicalId" type="string"/>
+    <aura:attribute name="vplatehistories" type="Plate_History__c[]"/>
+    
+    <ui:message aura:id="idMessage" class="slds-hide" title="Information" severity="info" >
+        No Records Found.
+    </ui:message>
+    <table class="{!v.vplatehistories.length>0?'slds-table slds-table--bordered slds-table--cell-buffer':'slds-hide'}">
+      <thead>
+            <tr class="slds-text-title--caps">
+              <th scope="col">
+                    <div class="slds-truncate" title="Field">Name</div>
+              </th>
+              <th scope="col">
+                    <div class="slds-truncate" title="Field">Registration Plate</div>
+              </th>
+              <th scope="col">
+                <div class="slds-truncate" title="Account Name">Plate Assignment Change Date</div>
+              </th>
+              <th scope="col">
+                <div class="slds-truncate" title="Stage">Plate Type</div>
+              </th>
+            </tr>
+      </thead>   
+      <tbody>
+      <aura:iteration items="{!v.vplatehistories}" var="v" >
+            <tr class="slds-text-title--caps">
+              <td scope="col">
+                <div class="slds-truncate">{!v.Name}</div>
+              </td>
+              
+              <td scope="col">
+                <div class="slds-truncate" >{!v.Registration_Plate__c}</div>
+              </td>
+                    <td scope="col">
+                <div class="slds-truncate" >{!v.Plate_Assignment_Changed_Date__c}</div>
+              </td>
+                    <td scope="col">
+                <div class="slds-truncate" >{!v.Plate_Type__c}</div>
+              </td>
+            </tr>
+        </aura:iteration>
+       </tbody>      
+    </table>
+</aura:component>

@@ -1,0 +1,17 @@
+<aura:component >
+
+    <aura:attribute name="searchResults" type="CompaniesOfficeSearchCtrl.wrapperClass[]"/>
+    <aura:attribute name="accID" type="Id" />
+
+    <div class="slds-card slds-p-top--xx-small slds-scrollable--y">
+        
+        <section class="slds-card__body">
+            <div id="list" class="row">
+                <aura:iteration items="{!v.searchResults}" var="result">
+                    <c:SearchCompaniesOfficeResultItem searchResult="{!result}" accID="{!v.accID}"/>
+                </aura:iteration>
+            </div>
+        </section>
+    </div>
+
+</aura:component>

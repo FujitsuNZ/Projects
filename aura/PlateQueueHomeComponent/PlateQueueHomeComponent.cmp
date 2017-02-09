@@ -1,0 +1,10 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" >
+    
+    <div class="slds-page-header">
+        <p class="slds-page-header__title">Plate Queue</p>
+    </div>
+    <div class="slds-box slds-box--small slds-text-align--center">
+        <ui:button class="slds-button" label="Add" press="{!c.navigatetoSeriesComponent}"/>
+        <ui:button class="slds-button" label="Sent" press="{!c.navigatetoViewSentBatch}"/>
+    </div>
+</aura:component>

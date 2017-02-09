@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Communication Preference</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Communication Preferences</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Communication Preferences --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Function --></label>
+        <name>Function__c</name>
+        <picklistValues>
+            <masterLabel>Event invitation</masterLabel>
+            <translation><!-- Event invitation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow up</masterLabel>
+            <translation><!-- Follow up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quotation</masterLabel>
+            <translation><!-- Quotation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall advice</masterLabel>
+            <translation><!-- Recall advice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reminder</masterLabel>
+            <translation><!-- Reminder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Statement</masterLabel>
+            <translation><!-- Statement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey</masterLabel>
+            <translation><!-- Survey --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Method --></label>
+        <name>Method__c</name>
+        <picklistValues>
+            <masterLabel>Instant Message</masterLabel>
+            <translation><!-- Instant Message --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post</masterLabel>
+            <translation><!-- Post --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>email</masterLabel>
+            <translation><!-- email --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Purpose --></label>
+        <name>Purpose__c</name>
+        <picklistValues>
+            <masterLabel>Extra Care</masterLabel>
+            <translation><!-- Extra Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation><!-- Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Vehicles</masterLabel>
+            <translation><!-- New Vehicles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parts &amp; Accessories</masterLabel>
+            <translation><!-- Parts &amp; Accessories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation><!-- Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Used Vehicles</masterLabel>
+            <translation><!-- Used Vehicles --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>Source__c</name>
+        <picklistValues>
+            <masterLabel>Aioi</masterLabel>
+            <translation><!-- Aioi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dealer</masterLabel>
+            <translation><!-- Dealer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TFS</masterLabel>
+            <translation><!-- TFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TNZ</masterLabel>
+            <translation><!-- TNZ --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Communication Preference Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

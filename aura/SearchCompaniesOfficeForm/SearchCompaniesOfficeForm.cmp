@@ -1,0 +1,35 @@
+<aura:component >
+        
+    <aura:attribute name="searchQuery" type="String"/>
+    <aura:registerEvent name="searchCompanyEvent" type="c:SearchCompaniesOffice"/>
+
+    
+  <div aria-labelledby="newsearchform">
+
+
+    <!-- CREATE SEARCH FORM -->
+    <form class="slds-form--stacked">
+
+      <div class="slds-form-element slds-is-required">
+          <div class="slds-form-element__control">
+              <ui:inputText aura:id="queryString"
+                  class="slds-input"
+                  labelClass="slds-form-element__label"
+                  value="{!v.searchQuery}"
+                  required="true"/>
+          </div>
+     </div>
+
+      <div class="slds-form-element">
+          <ui:button label="Search"
+              class="slds-button slds-button--destructive"
+              press="{!c.clickSearch}"/>
+      </div>
+
+    </form>
+    <!-- / CREATE SEARCH FORM -->
+
+
+</div>
+<!-- / CREATE NEW EXPENSE -->
+</aura:component>

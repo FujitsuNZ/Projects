@@ -1,0 +1,19 @@
+<aura:component >
+
+    <aura:attribute name="searchResults" type="SearchBotController.wrapperClass[]"/>
+
+    <div class="slds-card slds-p-top--xx-small slds-scrollable--y">
+        <header class="slds-card__header">
+            <h3 class="slds-text-heading--x-small">Search Results</h3>
+        </header>
+        
+        <section class="slds-card__body">
+            <div id="list" class="row">
+                <aura:iteration items="{!v.searchResults}" var="result">
+                    <c:searchResultItem searchResult="{!result}"/>
+                </aura:iteration>
+            </div>
+        </section>
+    </div>
+
+</aura:component>

@@ -1,0 +1,33 @@
+<aura:component controller="WECClaimsSummaryCtrl">
+    <aura:attribute name="searchResult" type="WECClaimsSummaryCtrl.wrapperClass"/>
+    <aura:attribute name="accID" type="Id" />
+    
+    <div class="slds-card">
+
+            <section class="slds-card__body">
+                <div class="slds-tile slds-hint-parent">
+                    <p class="slds-tile__title slds-wrap slds-p-left--small"> 
+                        
+                        <aura:if isTrue="{!v.searchResult.Error}">
+                            <ui:outputText value="{!v.searchResult.ErrorMsg}" /><br></br>
+                            
+                        <aura:set attribute="else">                        
+
+                                <ui:outputText class="slds-text-title" value="Claim ID:  " /><ui:outputText value="{!v.searchResult.ClaimID}" /><br></br>
+                                <ui:outputText class="slds-text-title" value="GUID:  " /><ui:outputText value="{!v.searchResult.TNZVehicleGUID}" /><br></br>
+                                <ui:outputText class="slds-text-title" value="Registration:  " /><ui:outputText value="{!v.searchResult.Registration}"/><br></br>
+                                <ui:outputText class="slds-text-title" value="Claim Type Name:  " /><ui:outputText value="{!v.searchResult.ClaimTypeName}"/><br></br>
+                                <ui:outputText class="slds-text-title" value="Repair Date:  " /><ui:outputText value="{!v.searchResult.RepairDate}"/><br></br>
+                                <ui:outputText class="slds-text-title" value="Claim Status:  " /><ui:outputDate value="{!v.searchResult.ClaimStatus}"/><br></br>
+                                <ui:outputText class="slds-text-title" value="Total Approved:  " /><ui:outputText value="{!v.searchResult.TotalApproved}"/><br></br>
+                                <ui:outputText class="slds-text-title" value="Odometer Reading:  " /><ui:outputText value="{!v.searchResult.OdometerReading}"/><br></br>
+                                <ui:outputText class="slds-text-title" value="Agent Code:  " /><ui:outputDate value="{!v.searchResult.AgentCode}"/><br></br>
+                            
+                            </aura:set>
+                        </aura:if>                            
+                    </p>
+                </div>
+            </section>
+        </div>
+
+</aura:component>

@@ -1,0 +1,4 @@
+Hi,
+
+New Case has been created for the complaint and moved to the complaint queue. 
+Case Number : {!Case.CaseNumber}

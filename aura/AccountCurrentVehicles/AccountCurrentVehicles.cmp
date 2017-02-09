@@ -1,0 +1,61 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:hasSObjectName"  controller="RelatedListController">
+    
+    <aura:attribute name="sobjectList"  type="List"/>
+    <aura:handler name="init" value="{!this}" action="{!c.fetchOwnersAction}" />
+
+    <div class="slds-page-header slds-text-title--caps"> Vehicles Owned </div>
+
+    <ui:message aura:id="idMessage" class="slds-hide"  title="Information" severity="info" >
+        No Records Found.
+    </ui:message>    
+    
+    <table class="{!v.sobjectList.length>0?'slds-table slds-table--bordered':'slds-hide'}">
+        <thead>
+            <tr class="slds-text-title--caps">
+              <th scope="col">
+                    <div class="slds-truncate" >Ownership Name</div>
+              </th>
+              <th scope="col">
+                <div class="slds-truncate">Vehicle</div>
+              </th>  
+              <th scope="col">
+                    <div class="slds-truncate" >Vehicle Plate</div>
+              </th>
+              <th scope="col">
+                <div class="slds-truncate" >Vehicle Year</div>
+              </th>
+              <th scope="col">
+                <div class="slds-truncate" >Vehicle Make</div>
+              </th>
+              <th scope="col">
+                <div class="slds-truncate" >Vehicle Model</div>
+              </th>                
+            </tr>   
+      </thead> 
+      <tbody>
+      <aura:iteration items="{!v.sobjectList}" var="v" >
+            <tr class="slds-text-title--caps">
+               <td >
+                   <a href="{!'/one/one.app?#/sObject/'+ v.Id + '/view'}" >{!v.Name}</a>
+               </td>
+               <td class="slds-cell-wrap">  
+                   <a href="{!'/one/one.app?#/sObject/'+v.Vehicle__c+ '/view'}">{!v.Vehicle__r.Name}</a>
+               </td> 
+               <td >
+                  <ui:outputText value="{!v.Vehicle_Plate__c}"/>
+               </td> 
+               <td>
+                   <ui:outputDate value="{!v.Vehicle_Year__c}"/>
+               </td>
+               <td >
+                  <ui:outputText value="{!v.Vehicle_Make__c}"/>
+               </td> 
+               <td>
+                   <ui:outputDate value="{!v.Vehicle_Model__c}"/>
+               </td>
+          </tr>
+        </aura:iteration>
+       </tbody>      
+    </table>
+    
+</aura:component>

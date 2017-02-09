@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CarJamEndpoint</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CarJamEndpoint</shortDescription>
+        <value>http://test.carjam.co.nz/api/car/</value>
+    </labels>
+    <labels>
+        <fullName>CarJamKey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CarJamKey</shortDescription>
+        <value>B8975975403D90FD0FD5E9DD7321FBDCCB02B3CD</value>
+    </labels>
+    <labels>
+        <fullName>CarJamPassword</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CarJamPassword</shortDescription>
+        <value>naui15424</value>
+    </labels>
+    <labels>
+        <fullName>CarJamUsername</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CarJamUsername</shortDescription>
+        <value>digby64</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>NZPost</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>NZPost</value>
+    </caseValues>
+    <fields>
+        <label><!-- Client ID --></label>
+        <name>Client_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Secret --></label>
+        <name>Client_Secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Point Details --></label>
+        <name>End_Point_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Point Find --></label>
+        <name>End_Point_Find__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

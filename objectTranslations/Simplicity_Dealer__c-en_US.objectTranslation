@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Simplicity Dealer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Simplicity Dealers</value>
+    </caseValues>
+    <fields>
+        <label><!-- AHContact1Cell --></label>
+        <name>AHContact1Cell__c</name>
+    </fields>
+    <fields>
+        <label><!-- AHContact1Home --></label>
+        <name>AHContact1Home__c</name>
+    </fields>
+    <fields>
+        <label><!-- AHContact1JobTitle --></label>
+        <name>AHContact1JobTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- AHContact1Name --></label>
+        <name>AHContact1Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- AHContact2Cell --></label>
+        <name>AHContact2Cell__c</name>
+    </fields>
+    <fields>
+        <label><!-- AHContact2Home --></label>
+        <name>AHContact2Home__c</name>
+    </fields>
+    <fields>
+        <label><!-- AHContact2JobTitle --></label>
+        <name>AHContact2JobTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- AHContact2Name --></label>
+        <name>AHContact2Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- AHContact3Cell --></label>
+        <name>AHContact3Cell__c</name>
+    </fields>
+    <fields>
+        <label><!-- AHContact3Home --></label>
+        <name>AHContact3Home__c</name>
+    </fields>
+    <fields>
+        <label><!-- AHContact3JobTitle --></label>
+        <name>AHContact3JobTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- AHContact3Name --></label>
+        <name>AHContact3Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Abbreviation --></label>
+        <name>Abbreviation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Admin --></label>
+        <name>Admin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch --></label>
+        <name>Branch__c</name>
+    </fields>
+    <fields>
+        <label><!-- BusinessEmail --></label>
+        <name>BusinessEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- CEO --></label>
+        <name>CEO__c</name>
+    </fields>
+    <fields>
+        <label><!-- CR --></label>
+        <name>CR__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- CompanyName --></label>
+        <name>CompanyName__c</name>
+    </fields>
+    <fields>
+        <label><!-- CoreDealer --></label>
+        <name>CoreDealer__c</name>
+    </fields>
+    <fields>
+        <label><!-- DealerCode --></label>
+        <name>DealerCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- DealerCopyForSite --></label>
+        <name>DealerCopyForSite__c</name>
+    </fields>
+    <fields>
+        <label><!-- DealerType --></label>
+        <name>DealerType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extra Care --></label>
+        <name>Extra_Care__c</name>
+    </fields>
+    <fields>
+        <label><!-- FaxBusiness --></label>
+        <name>FaxBusiness__c</name>
+    </fields>
+    <fields>
+        <label><!-- FreePhone --></label>
+        <name>FreePhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- NCCShortcodePhone_Local --></label>
+        <name>NCCShortcodePhone_Local__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Sales --></label>
+        <name>New_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org RSN --></label>
+        <name>Org_RSN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parts --></label>
+        <name>Parts__c</name>
+    </fields>
+    <fields>
+        <label><!-- PhoneBusiness --></label>
+        <name>PhoneBusiness__c</name>
+    </fields>
+    <fields>
+        <label><!-- PostalAddressLine1 --></label>
+        <name>PostalAddressLine1__c</name>
+    </fields>
+    <fields>
+        <label><!-- PostalAddressLine2 --></label>
+        <name>PostalAddressLine2__c</name>
+    </fields>
+    <fields>
+        <label><!-- PostalAddressLine3 --></label>
+        <name>PostalAddressLine3__c</name>
+    </fields>
+    <fields>
+        <label><!-- PostalAddressLine4 --></label>
+        <name>PostalAddressLine4__c</name>
+    </fields>
+    <fields>
+        <label><!-- PostalAddressPostCode --></label>
+        <name>PostalAddressPostCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service --></label>
+        <name>Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- StreetAddressLine1 --></label>
+        <name>StreetAddressLine1__c</name>
+    </fields>
+    <fields>
+        <label><!-- StreetAddressLine2 --></label>
+        <name>StreetAddressLine2__c</name>
+    </fields>
+    <fields>
+        <label><!-- StreetAddressLine3 --></label>
+        <name>StreetAddressLine3__c</name>
+    </fields>
+    <fields>
+        <label><!-- StreetAddressMapGrid_X --></label>
+        <name>StreetAddressMapGrid_X__c</name>
+    </fields>
+    <fields>
+        <label><!-- StreetAddressMapGrid_Y --></label>
+        <name>StreetAddressMapGrid_Y__c</name>
+    </fields>
+    <fields>
+        <label><!-- Town --></label>
+        <name>Town__c</name>
+    </fields>
+    <fields>
+        <label><!-- Used Sales --></label>
+        <name>Used_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website --></label>
+        <name>Website__c</name>
+    </fields>
+    <layouts>
+        <layout>Simplicity Dealer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

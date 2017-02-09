@@ -1,0 +1,53 @@
+<aura:component implements="force:hasRecordId,flexipage:availableForRecordHome,force:hasSObjectName" controller="RelatedListController">
+    
+    <aura:attribute name="sobjectHistoryList"  type="List"/>
+    <aura:handler name="init" value="{!this}" action="{!c.fetchHistory}" />
+    <div class="slds-page-header slds-text-title--caps"> Field History </div>
+
+    <ui:message aura:id="idMessage" class="slds-hide"  title="Information" severity="info" >
+        No Records Found.
+    </ui:message>    
+    <table class="{!v.sobjectHistoryList.length>0?'slds-table slds-table--bordered slds-table--cell-buffer':'slds-hide'}">
+        <thead>
+            <tr class="slds-text-title--caps">
+              <th scope="col">
+                    <div class="slds-truncate">Date</div>
+              </th>
+              <th scope="col">
+                    <div class="slds-truncate">Field</div>
+              </th>
+              <th scope="col">
+                <div class="slds-truncate">Edited By</div>
+              </th>
+              <th scope="col">
+                <div class="slds-truncate">Old Value</div>
+              </th>
+              <th scope="col">
+                <div class="slds-truncate">New Value</div>
+              </th>
+            </tr>
+      </thead> 
+      <tbody>
+      <aura:iteration items="{!v.sobjectHistoryList}" var="v" >
+            <tr class="slds-text-title--caps">
+               <td >
+                  <div class="slds-truncate" ><ui:outputDateTime value="{!v.CreatedDate}"/></div>
+               </td>  
+               <td >
+                  <div class="slds-truncate" >{!v.Field}</div>
+               </td>
+               <td >
+                <div class="slds-truncate" >{!v.CreatedBy.Name}</div>
+               </td>
+               <td >
+                <div class="slds-truncate" >{!v.OldValue}</div>
+               </td>
+               <td >
+                <div class="slds-truncate" >{!v.NewValue}</div>
+               </td>
+            </tr>
+        </aura:iteration>
+       </tbody>      
+    </table>
+   
+</aura:component>

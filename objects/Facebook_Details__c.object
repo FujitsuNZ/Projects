@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Application_Id__c</fullName>
+        <description>Facebook Application Id.</description>
+        <externalId>false</externalId>
+        <label>Application Id</label>
+        <length>80</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Facebook_Page_Id__c</fullName>
+        <description>Facebook Page Id</description>
+        <externalId>false</externalId>
+        <label>Facebook Page Id</label>
+        <length>80</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PageAccess_Token__c</fullName>
+        <description>Page Access Token.</description>
+        <externalId>false</externalId>
+        <label>PageAccess Token</label>
+        <length>240</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Facebook Details</label>
+    <visibility>Public</visibility>
+</CustomObject>

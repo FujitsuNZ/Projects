@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plate Queue Batch</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Plate Queue Batches</value>
+    </caseValues>
+    <fields>
+        <label><!-- Date Sent --></label>
+        <name>Date_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Records --></label>
+        <name>Records__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Plate --></label>
+        <name>Start_Plate__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

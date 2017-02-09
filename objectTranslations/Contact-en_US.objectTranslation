@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Person</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>People</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Access</value>
+        </caseValues>
+        <name>contact_access</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Access Level</value>
+        </caseValues>
+        <name>contact_access_level</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Account</value>
+        </caseValues>
+        <name>contact_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Currency</value>
+        </caseValues>
+        <name>contact_currency</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Description</value>
+        </caseValues>
+        <name>contact_description</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Division</value>
+        </caseValues>
+        <name>contact_division</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Edit</value>
+        </caseValues>
+        <name>contact_edit</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Personal Email</value>
+        </caseValues>
+        <name>contact_email</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Personal Fax</value>
+        </caseValues>
+        <name>contact_fax</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Field</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Person Fields</value>
+        </caseValues>
+        <name>contact_field</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person History</value>
+        </caseValues>
+        <name>contact_history</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person History Report</value>
+        </caseValues>
+        <name>contact_history_report</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person ID</value>
+        </caseValues>
+        <name>contact_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Information</value>
+        </caseValues>
+        <name>contact_information</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Personal Mobile</value>
+        </caseValues>
+        <name>contact_mobile</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Name</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Person Names</value>
+        </caseValues>
+        <name>contact_name</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Note</value>
+        </caseValues>
+        <name>contact_note</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Number</value>
+        </caseValues>
+        <name>contact_number</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Owner</value>
+        </caseValues>
+        <name>contact_owner</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Owner Alias</value>
+        </caseValues>
+        <name>contact_owner_alias</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Personal Phone</value>
+        </caseValues>
+        <name>contact_phone</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Record</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Person Records</value>
+        </caseValues>
+        <name>contact_record</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Record Type</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Person Record Types</value>
+        </caseValues>
+        <name>contact_record_type</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Reports To Person</value>
+        </caseValues>
+        <name>contact_reports_to</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Role</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Roles</value>
+        </caseValues>
+        <name>contact_role</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Role ID</value>
+        </caseValues>
+        <name>contact_role_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Role Report</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Person Role Reports</value>
+        </caseValues>
+        <name>contact_role_report</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Stage ID</value>
+        </caseValues>
+        <name>contact_stage_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Status</value>
+        </caseValues>
+        <name>contact_status</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Type</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Types</value>
+        </caseValues>
+        <name>contact_type</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person View</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Person Views</value>
+        </caseValues>
+        <name>contact_view</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical Geocode Accuracy</value>
+        </caseValues>
+        <name>other_accuracy_geocode_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical Address</value>
+        </caseValues>
+        <name>other_address_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical City</value>
+        </caseValues>
+        <name>other_city_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical Country Code</value>
+        </caseValues>
+        <name>other_country_code_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical Country</value>
+        </caseValues>
+        <name>other_country_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical Latitude</value>
+        </caseValues>
+        <name>other_latitude_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical Longitude</value>
+        </caseValues>
+        <name>other_longitude_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical Phone</value>
+        </caseValues>
+        <name>other_phone_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical State/Province Code</value>
+        </caseValues>
+        <name>other_state_code_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical State/Province</value>
+        </caseValues>
+        <name>other_state_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical Street</value>
+        </caseValues>
+        <name>other_street_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical Zip/Postal Code</value>
+        </caseValues>
+        <name>other_zip_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Communication Preference --></label>
+        <name>Communication_Preference__c</name>
+        <picklistValues>
+            <masterLabel>Instant Message</masterLabel>
+            <translation><!-- Instant Message --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post</masterLabel>
+            <translation><!-- Post --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>email</masterLabel>
+            <translation><!-- email --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Source --></label>
+        <name>Contact_Source__c</name>
+        <picklistValues>
+            <masterLabel>Dealer/TUNZ</masterLabel>
+            <translation><!-- Dealer/TUNZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Agency</masterLabel>
+            <translation><!-- External Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MVR</masterLabel>
+            <translation><!-- MVR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Campaign</masterLabel>
+            <translation><!-- Marketing Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZ Post</masterLabel>
+            <translation><!-- NZ Post --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TNZ</masterLabel>
+            <translation><!-- TNZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WEC</masterLabel>
+            <translation><!-- WEC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Type --></label>
+        <name>Customer_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Point ID --></label>
+        <name>DPID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Driver Licence Number --></label>
+        <name>Driver_Licence_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee End Date --></label>
+        <name>Employee_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Start Date --></label>
+        <name>Employee_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Status --></label>
+        <name>Employee_Status__c</name>
+        <picklistValues>
+            <masterLabel>Historical</masterLabel>
+            <translation><!-- Historical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unverified</masterLabel>
+            <translation><!-- Unverified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valid</masterLabel>
+            <translation><!-- Valid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verified</masterLabel>
+            <translation><!-- Verified --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Facebook ID --></label>
+        <name>Facebook_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gone No Address --></label>
+        <name>Gone_No_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interests --></label>
+        <name>Interests__c</name>
+        <picklistValues>
+            <masterLabel>Antiques &amp; Collectables</masterLabel>
+            <translation><!-- Antiques &amp; Collectables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Art</masterLabel>
+            <translation><!-- Art --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boating</masterLabel>
+            <translation><!-- Boating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Books</masterLabel>
+            <translation><!-- Books --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bowls</masterLabel>
+            <translation><!-- Bowls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cinema</masterLabel>
+            <translation><!-- Cinema --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cricket</masterLabel>
+            <translation><!-- Cricket --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dance / Ballet</masterLabel>
+            <translation><!-- Dance / Ballet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equestrian</masterLabel>
+            <translation><!-- Equestrian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion</masterLabel>
+            <translation><!-- Fashion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Film</masterLabel>
+            <translation><!-- Film --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fishing</masterLabel>
+            <translation><!-- Fishing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Wine</masterLabel>
+            <translation><!-- Food &amp; Wine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gardening</masterLabel>
+            <translation><!-- Gardening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf</masterLabel>
+            <translation><!-- Golf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interior Design</masterLabel>
+            <translation><!-- Interior Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MX</masterLabel>
+            <translation><!-- MX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motorsport</masterLabel>
+            <translation><!-- Motorsport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Music</masterLabel>
+            <translation><!-- Music --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opera</masterLabel>
+            <translation><!-- Opera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Photography</masterLabel>
+            <translation><!-- Photography --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reading</masterLabel>
+            <translation><!-- Reading --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rugby</masterLabel>
+            <translation><!-- Rugby --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sailing</masterLabel>
+            <translation><!-- Sailing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sailing – America’s Cup</masterLabel>
+            <translation><!-- Sailing – America’s Cup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shopping</masterLabel>
+            <translation><!-- Shopping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skiing</masterLabel>
+            <translation><!-- Skiing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennis</masterLabel>
+            <translation><!-- Tennis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Theatre</masterLabel>
+            <translation><!-- Theatre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tramping</masterLabel>
+            <translation><!-- Tramping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel</masterLabel>
+            <translation><!-- Travel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Touch Point Date --></label>
+        <name>Last_Touch_Point_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Touch Point From --></label>
+        <name>Last_Touch_Point_From__c</name>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Advertisement</masterLabel>
+            <translation><!-- Advertisement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Referral</masterLabel>
+            <translation><!-- Employee Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Referral</masterLabel>
+            <translation><!-- External Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation><!-- Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Relations</masterLabel>
+            <translation><!-- Public Relations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar - Internal</masterLabel>
+            <translation><!-- Seminar - Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar - Partner</masterLabel>
+            <translation><!-- Seminar - Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Show</masterLabel>
+            <translation><!-- Trade Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation><!-- Web --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Word of mouth</masterLabel>
+            <translation><!-- Word of mouth --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Legal Name --></label>
+        <name>Legal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- MapGrid X --></label>
+        <name>MapGrid_X__c</name>
+    </fields>
+    <fields>
+        <label><!-- MapGrid Y --></label>
+        <name>MapGrid_Y__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meshblock Code --></label>
+        <name>Meshblock_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Numeric --></label>
+        <name>Mobile_Numeric__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Numeric --></label>
+        <name>Phone_Numeric__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Dealer --></label>
+        <name>Preferred_Dealer__c</name>
+        <relationshipLabel><!-- Contacts (Preferred Dealer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Preferred Name --></label>
+        <name>Preferred_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Roles --></label>
+        <name>Roles__c</name>
+        <picklistValues>
+            <masterLabel>Driver</masterLabel>
+            <translation><!-- Driver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner</masterLabel>
+            <translation><!-- Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIP</masterLabel>
+            <translation><!-- VIP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SOA Code --></label>
+        <name>SOA_Code__c</name>
+        <picklistValues>
+            <masterLabel>IGNORE</masterLabel>
+            <translation><!-- IGNORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INVALID</masterLabel>
+            <translation><!-- INVALID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALID-B</masterLabel>
+            <translation><!-- VALID-B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALID-U</masterLabel>
+            <translation><!-- VALID-U --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SOA Reason --></label>
+        <name>SOA_Reason__c</name>
+        <picklistValues>
+            <masterLabel>CHG</masterLabel>
+            <translation><!-- CHG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERR</masterLabel>
+            <translation><!-- ERR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXT</masterLabel>
+            <translation><!-- EXT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IGN</masterLabel>
+            <translation><!-- IGN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PCD</masterLabel>
+            <translation><!-- PCD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REG</masterLabel>
+            <translation><!-- REG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RGN</masterLabel>
+            <translation><!-- RGN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEC</masterLabel>
+            <translation><!-- SEC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Suppression Codes --></label>
+        <name>Suppression_Codes__c</name>
+        <picklistValues>
+            <masterLabel>Deceased</masterLabel>
+            <translation><!-- Deceased --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Contact</masterLabel>
+            <translation><!-- Do Not Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Send Promotional Mail</masterLabel>
+            <translation><!-- Do Not Send Promotional Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Survey</masterLabel>
+            <translation><!-- Do Not Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Opt-Out</masterLabel>
+            <translation><!-- Email Opt-Out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gone No Address</masterLabel>
+            <translation><!-- Gone No Address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overseas</masterLabel>
+            <translation><!-- Overseas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suppressed</masterLabel>
+            <translation><!-- Suppressed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Toyota PMA Dealer --></label>
+        <name>Toyota_PMA_Dealer__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Twitter ID --></label>
+        <name>Twitter_ID__c</name>
+    </fields>
+    <layouts>
+        <layout>Corporate Customers</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Communication Information --></label>
+            <section>Communication Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Employee Info --></label>
+            <section>Employee Info</section>
+        </sections>
+        <sections>
+            <label><!-- Location Information --></label>
+            <section>Location Information</section>
+        </sections>
+        <sections>
+            <label><!-- Preferred Contact Methods --></label>
+            <section>Preferred Contact Methods</section>
+        </sections>
+        <sections>
+            <label><!-- Social Media Information --></label>
+            <section>Social Media Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+</CustomObjectTranslation>

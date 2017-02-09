@@ -1,0 +1,54 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:hasSObjectName"  controller="WECClaimsSummaryCtrl">
+    
+    <aura:attribute name="sobjectList"  type="WECClaimsSummaryCtrl.wrapperClass[]"/>
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute type="Boolean" name="sortAsc"  default="false"/>
+    <aura:attribute type="String" name="sortField" />        
+    <aura:handler name="init" value="{!this}" action="{!c.fetchOwnersAction}" />
+
+    <div class="slds-page-header slds-text-title--caps"><b> Claim(s) </b></div>
+
+    <ui:message aura:id="idMessage" class="slds-hide"  title="Information" severity="info" >
+        No Records Found.
+    </ui:message>    
+    
+    <table class="{!v.sobjectList.length>0?'slds-table slds-table--bordered slds-table--fixed-layout':'slds-hide'}">
+        <thead>
+            
+            <tr class="slds-theme--shade slds-text-title--caps slds-text-heading--label slds-p-top--small slds-p-bottom--small ">
+                    <th focusable="true" class="slds-is-sortable" scope="col" style="width:10%;" onclick="{!c.sortByClaim}"><div class="slds-truncate" >Claim ID</div></th>
+                    <th focusable="true" class="slds-is-sortable" scope="col" style="width:20%;" onclick="{!c.sortByType}"><div class="slds-truncate slds-p-left--x-small" >Type</div></th>
+                    <th focusable="true" class="slds-is-sortable" scope="col" style="width:10%;" onclick="{!c.sortByDate}"><div class="slds-truncate slds-p-left--x-small" >Repair Date</div></th>
+                    <th focusable="true" class="slds-is-sortable " scope="col" style="width:10%;" onclick="{!c.sortByStatus}"><div class="slds-truncate slds-p-left--x-small" >Status</div></th>
+                    <th focusable="true" class="slds-is-sortable slds-text-align--right" scope="col" style="width:10%;" onclick="{!c.sortByTotal}"><div class="slds-truncate" >Total Approved</div></th>
+                    <th focusable="true" class="slds-is-sortable slds-text-align--right" scope="col" style="width:15%;" onclick="{!c.sortByOdo}"><div class="slds-truncate" >Odometer Reading</div></th>
+                    <th focusable="true" class="slds-is-sortable slds-text-align--center" scope="col" style="width:20%;" onclick="{!c.sortByAgent}"><div class="slds-truncate" >Agent Code</div></th>                       
+            </tr>               
+            
+      </thead> 
+      <tbody>
+      <aura:iteration items="{!v.sobjectList}" var="v" >
+          
+            <aura:if isTrue="{!v.Error}">
+                <br></br>
+                     <ui:outputText class="slds-text-color--error slds-text-align--center" value="{!v.ErrorMsg}" /><br></br>               
+                <br></br>
+            <aura:set attribute="else">
+ 
+                <tr class="slds-text-title--caps">
+                     <td class="slds-truncate"  style="width:10%;"><ui:outputText value="{!v.ClaimID}"/></td>
+                     <td class="slds-truncate" style="width:20%;"><ui:outputText title="{!v.ClaimTypeName}" value="{!v.ClaimTypeName}"/></td>
+                     <td class="slds-truncate"  style="width:10%;"><ui:outputDate value="{!v.RepairDate}"/></td>
+                     <td class="slds-truncate"  style="width:10%;"><ui:outputText value="{!v.ClaimStatus}"/></td>
+                     <td class="slds-truncate slds-text-align--right slds-p-right--x-large" style="width:10%;"><ui:outputCurrency value="{!v.TotalApproved}"/> </td>
+                     <td class="slds-truncate slds-text-align--right slds-p-right--x-large " style="width:15%;"><ui:outputNumber value="{!v.OdometerReading}"/> </td>
+                     <td class="slds-truncate slds-text-align--center" style="width:20%;"><ui:outputText value="{!v.AgentCode}"/> </td>
+                 </tr>                   
+                            
+          </aura:set>
+          </aura:if>
+        </aura:iteration>
+       </tbody>      
+    </table>
+    
+</aura:component>

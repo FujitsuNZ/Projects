@@ -1,0 +1,61 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:hasSObjectName"  controller="VMSVehicleRecallCtrl">
+
+<ltng:require styles="/resource/SLDS221/assets/styles/salesforce-lightning-design-system.css"/>
+<ltng:require scripts="/resource/js/jquery-3.1.1.min.js"/>
+<ltng:require scripts="/resource/js/colResizable-1.6/colResizable-1.6.min.js"  afterScriptsLoaded="{!c.setup}"/>
+              
+    <aura:attribute name="sobjectList"  type="VMSVehicleRecallCtrl.wrapperClass[]"/>
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute type="Boolean" name="sortAsc"  default="false"/>
+    <aura:attribute type="String" name="sortField" />
+    <aura:handler name="init" value="{!this}" action="{!c.fetchOwnersAction}" />
+    
+    <div class="slds-page-header slds-text-title--caps"><b> WEC Active Recall(s) </b></div>
+
+    <ui:message aura:id="idMessage" class="slds-hide"  title="Information" severity="info" >
+        No Records Found.
+    </ui:message>    
+
+    <!-- DISPLAY RESULTS -->
+<table class="slds-table slds-table--bordered slds-table--fixed-layout"  id="myTable">
+      <thead>
+           <tr class="slds-theme--shade slds-text-title--caps slds-text-heading--label">
+               
+              <th focusable="true" class="slds-is-sortable" scope="col" style="width:20%;" onclick="{!c.sortByCampaign}"><div class="slds-truncate  slds-p-left--x-small" >Campaign</div></th>
+              <th focusable="true" class="slds-is-sortable" scope="col" style="width:10%;" onclick="{!c.sortByStatus}"><div class="slds-truncate slds-p-left--x-small" >Status</div></th>
+              <th focusable="true" class="slds-is-sortable" scope="col" style="width:10%;" onclick="{!c.sortByBulletin}"><div class="slds-truncate" >Bulletin Link</div></th>
+              <th focusable="true" class="slds-is-sortable" scope="col" style="width:10%;" onclick="{!c.sortByDate}"><div class="slds-truncate slds-p-left--x-small" >Start Date</div></th>
+              <th focusable="true" class="slds-is-sortable" scope="col" style="width:10%;" onclick="{!c.sortByCause}"><div class="slds-truncate slds-p-left--x-small" >Cause</div></th>
+              <th focusable="true" class="slds-is-sortable" scope="col" style="width:20%;" onclick="{!c.sortByCondition}"><div class="slds-truncate slds-p-left--x-small" >Condition</div></th>
+              <th focusable="true" class="slds-is-sortable" scope="col" style="width:20%;" onclick="{!c.sortByRemedy}"><div class="slds-truncate slds-p-left--x-small" >Remedy</div></th>               
+ 
+           </tr>
+      </thead>
+      <tbody>
+    
+    <aura:iteration items="{!v.sobjectList}" var="v" >
+          
+            <aura:if isTrue="{!v.Error}">
+                <br></br>
+                     <ui:outputText class="slds-text-color--error slds-text-align--center" value="{!v.ErrorMsg}" /><br></br>               
+                <br></br>
+            <aura:set attribute="else">
+                
+                <tr class="slds-text-title--caps">
+                     <td class="slds-truncate"  style="width:20%;"><ui:outputText title="{!v.campaigndescription}" value="{!v.campaigndescription}" /></td>
+                     <td class="slds-truncate" style="width:10%;"><ui:outputText value="{!v.campaignstatus}" /></td>
+                     <td class="slds-truncate"  style="width:10%;"><a href="{!v.bulletinlink}" target="_blank" >{!v.bulletingreference}</a></td>
+                     <td style="width:10%;"><ui:outputDate value="{!v.campaignstartdate}" /></td>
+                     <td class="slds-truncate" style="width:10%;"><ui:outputText value="{!v.cause}" /> </td>
+                     <td class="slds-truncate" style="width:20%;"><ui:outputText title="{!v.condition}" value="{!v.condition}" />           </td>
+                     <td class="slds-truncate" style="width:20%;"><ui:outputText title="{!v.remedy}" value="{!v.remedy}" /> </td>
+                 </tr>
+                
+          </aura:set>
+          </aura:if>
+        
+        </aura:iteration>
+    </tbody>
+  </table>
+
+</aura:component>

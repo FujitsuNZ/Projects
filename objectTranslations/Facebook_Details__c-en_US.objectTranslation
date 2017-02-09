@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Facebook Details</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Facebook Details</value>
+    </caseValues>
+    <fields>
+        <label><!-- Application Id --></label>
+        <name>Application_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook Page Id --></label>
+        <name>Facebook_Page_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- PageAccess Token --></label>
+        <name>PageAccess_Token__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MVR</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MVRs</value>
+    </caseValues>
+    <fields>
+        <help><!-- DDMMCCYY --></help>
+        <label><!-- Acquisition Date (Ownership) --></label>
+        <name>Acquisition_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternative Fuel Type --></label>
+        <name>Alternative_Fuel_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assembly Type --></label>
+        <name>Assembly_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Axle Type --></label>
+        <name>Axle_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Body Style --></label>
+        <name>Body_Style__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Rating --></label>
+        <name>CC_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation reason code --></label>
+        <name>Cancellation_reason_code__c</name>
+    </fields>
+    <fields>
+        <help><!-- New, Used, Reregistered --></help>
+        <label><!-- Cause Of Latest Registration --></label>
+        <name>Cause_Of_Latest_Registration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Chassis No. --></label>
+        <name>Chassis_No__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;Y&quot; or &quot;N&quot; --></help>
+        <label><!-- Continuous Licence --></label>
+        <name>Continuous_Licence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country Of Origin --></label>
+        <name>Country_Of_Origin__c</name>
+    </fields>
+    <fields>
+        <help><!-- DDMMCCYY --></help>
+        <label><!-- Date Of Issue For Latest Licence --></label>
+        <name>Date_Of_Issue_For_Latest_Licence__c</name>
+    </fields>
+    <fields>
+        <help><!-- DDMMCCYY --></help>
+        <label><!-- Date Of Latest COF Inspection --></label>
+        <name>Date_Of_Latest_COF_Inspection__c</name>
+    </fields>
+    <fields>
+        <help><!-- DDMMCCYY --></help>
+        <label><!-- Date Of Latest WOF Inspection --></label>
+        <name>Date_Of_Latest_WOF_Inspection__c</name>
+    </fields>
+    <fields>
+        <help><!-- DDMMCCYY --></help>
+        <label><!-- Date Of Odometer Reading --></label>
+        <name>Date_Of_Odometer_Reading__c</name>
+    </fields>
+    <fields>
+        <help><!-- DDMMCCYY --></help>
+        <label><!-- Date Query Processed --></label>
+        <name>Date_Query_Processed__c</name>
+    </fields>
+    <fields>
+        <help><!-- future use --></help>
+        <label><!-- Date Reported Stolen --></label>
+        <name>Date_Reported_Stolen__c</name>
+    </fields>
+    <fields>
+        <help><!-- DDMMCCYY --></help>
+        <label><!-- Date of Birth Of Registered Person --></label>
+        <name>Date_of_Birth_Of_Registered_Person__c</name>
+    </fields>
+    <fields>
+        <help><!-- DDMMCCYY --></help>
+        <label><!-- Date of Latest Registration --></label>
+        <name>Date_of_Latest_Registration__c</name>
+    </fields>
+    <fields>
+        <help><!-- DDMMCCYY --></help>
+        <label><!-- Date of first Registration In NZ --></label>
+        <name>Date_of_first_Registration_In_NZ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day of first Registration Overseas --></label>
+        <name>Day_of_first_Registration_Overseas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engine No. --></label>
+        <name>Engine_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Message Severity --></label>
+        <name>Error_Message_Severity__c</name>
+        <picklistValues>
+            <masterLabel>Caution</masterLabel>
+            <translation><!-- Caution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ok</masterLabel>
+            <translation><!-- Ok --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unassigned</masterLabel>
+            <translation><!-- Unassigned --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- DDMMCCYY --></help>
+        <label><!-- Expiry Date OF Last Successful COF --></label>
+        <name>Expiry_Date_OF_Last_Successful_COF__c</name>
+    </fields>
+    <fields>
+        <help><!-- DDMMCCYY --></help>
+        <label><!-- Expiry Date Of Last Successful WOF --></label>
+        <name>Expiry_Date_Of_Last_Successful_WOF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fleet/Lease Owner --></label>
+        <name>Fleet_Lease_Owner__c</name>
+    </fields>
+    <fields>
+        <help><!-- F= Fleet
+L = Lease
+Blank = neither --></help>
+        <label><!-- Fleet/Lease Ownership --></label>
+        <name>Fleet_Lease_Ownership__c</name>
+    </fields>
+    <fields>
+        <label><!-- Front Axle Group Rating --></label>
+        <name>Front_Axle_Group_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fuel Type --></label>
+        <name>Fuel_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;Y&quot; or &quot;N&quot; --></help>
+        <label><!-- Gone No Address --></label>
+        <name>Gone_No_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- (kg) --></help>
+        <label><!-- Gross Vehicle Mass --></label>
+        <name>Gross_Vehicle_Mass__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;Y&quot; or &quot;N&quot; --></help>
+        <label><!-- Imported Damaged --></label>
+        <name>Imported_Damaged__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Agent --></label>
+        <name>Inspection_Agent__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;Y&quot; or &quot;N&quot; --></help>
+        <label><!-- Joint Owner Indicator --></label>
+        <name>Joint_Owner_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Joint Owner Name No. 1 --></label>
+        <name>Joint_Owner_Name_No_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Joint Owner Name No. 2 --></label>
+        <name>Joint_Owner_Name_No_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Joint Owner Name No. 3 --></label>
+        <name>Joint_Owner_Name_No_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Odometer Reading --></label>
+        <name>Latest_Odometer_Reading__c</name>
+    </fields>
+    <fields>
+        <help><!-- DDMMCCYY --></help>
+        <label><!-- Licence Expiry Date --></label>
+        <name>Licence_Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Licence Type --></label>
+        <name>Licence_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Load Process Date --></label>
+        <name>Load_Process_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Load Process Message --></label>
+        <name>Load_Process_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Address Box Bag Number --></label>
+        <name>Mailing_Address_Box_Bag_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Address Box Bag Rd --></label>
+        <name>Mailing_Address_Box_Bag_Rd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Address Flat Floor Name --></label>
+        <name>Mailing_Address_Flat_Floor_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Address Postcode --></label>
+        <name>Mailing_Address_Postcode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Address Property Name --></label>
+        <name>Mailing_Address_Property_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Address RD Number --></label>
+        <name>Mailing_Address_RD_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Address Street Name --></label>
+        <name>Mailing_Address_Street_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Address Street Number --></label>
+        <name>Mailing_Address_Street_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Address Suburb --></label>
+        <name>Mailing_Address_Suburb__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Address Town --></label>
+        <name>Mailing_Address_Town__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Colour --></label>
+        <name>Main_Colour__c</name>
+    </fields>
+    <fields>
+        <label><!-- Make --></label>
+        <name>Make__c</name>
+    </fields>
+    <fields>
+        <help><!-- (kg) --></help>
+        <label><!-- Maximum Rated Towed Mass For Unbraked Tr --></label>
+        <name>Maximum_Rated_Towed_Mass_For_Unbraked_Tr__c</name>
+    </fields>
+    <fields>
+        <help><!-- (kg) --></help>
+        <label><!-- Maximum Rated Towed Mass For braked Trai --></label>
+        <name>Maximum_Rated_Towed_Mass_For_braked_Trai__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;00&quot; if no error --></help>
+        <label><!-- Message Code 1 --></label>
+        <name>Message_Code_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;00&quot; if no error --></help>
+        <label><!-- Message Code 2 --></label>
+        <name>Message_Code_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;00&quot; if no error --></help>
+        <label><!-- Message Code 3 --></label>
+        <name>Message_Code_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Model --></label>
+        <name>Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Month of first Registration Overseas --></label>
+        <name>Month_of_first_Registration_Overseas__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. Of Axles --></label>
+        <name>No_Of_Axles__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. Of Seats --></label>
+        <name>No_Of_Seats__c</name>
+    </fields>
+    <fields>
+        <label><!-- Odometer Source --></label>
+        <name>Odometer_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Odometer Unit --></label>
+        <name>Odometer_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ownership Status --></label>
+        <name>Ownership_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Physical Address Flat Floor Number --></label>
+        <name>Physical_Address_Flat_Floor_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Physical Address Postcode --></label>
+        <name>Physical_Address_Postcode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Physical Address Property Name --></label>
+        <name>Physical_Address_Property_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Physical Address RD Number --></label>
+        <name>Physical_Address_RD_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Physical Address Street Name --></label>
+        <name>Physical_Address_Street_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Physical Address Street Number --></label>
+        <name>Physical_Address_Street_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Physical Address Suburb --></label>
+        <name>Physical_Address_Suburb__c</name>
+    </fields>
+    <fields>
+        <label><!-- Physical Address Town --></label>
+        <name>Physical_Address_Town__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plate No. --></label>
+        <name>Plate_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plate Type --></label>
+        <name>Plate_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- (kW) --></help>
+        <label><!-- Power --></label>
+        <name>Power__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Country of Registration --></label>
+        <name>Previous_Country_of_Registration__c</name>
+    </fields>
+    <fields>
+        <help><!-- DDMMCCYY --></help>
+        <label><!-- Query Date for Owner As At --></label>
+        <name>Query_Date_for_Owner_As_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rear Axle Group rating --></label>
+        <name>Rear_Axle_Group_rating__c</name>
+    </fields>
+    <fields>
+        <help><!-- 2 = Current details
+3 = registered person as at date --></help>
+        <label><!-- Record Type --></label>
+        <name>Record_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;Y&quot; or &quot;N&quot; --></help>
+        <label><!-- Registered Overseas --></label>
+        <name>Registered_Overseas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registered Person Name --></label>
+        <name>Registered_Person_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Status --></label>
+        <name>Registration_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;Y&quot; or &quot;N&quot; --></help>
+        <label><!-- Reliable Odometer --></label>
+        <name>Reliable_Odometer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Replacement Plate --></label>
+        <name>Replacement_Plate__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;Y&quot; or &quot;N&quot; --></help>
+        <label><!-- Reported Stolen --></label>
+        <name>Reported_Stolen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Result Of Latest COF Inspection --></label>
+        <name>Result_Of_Latest_COF_Inspection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Result Of Latest WOF Inspection --></label>
+        <name>Result_Of_Latest_WOF_Inspection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Second Colour --></label>
+        <name>Second_Colour__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;M&quot; or &quot;F&quot; or &quot;C&quot; --></help>
+        <label><!-- Sex/Company --></label>
+        <name>Sex_Company__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;Y&quot; or &quot;N&quot; --></help>
+        <label><!-- Subject To COF Inspection --></label>
+        <name>Subject_To_COF_Inspection__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;Y&quot; or &quot;N&quot; --></help>
+        <label><!-- Subject To RUC --></label>
+        <name>Subject_To_RUC__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;Y&quot; or &quot;N&quot; --></help>
+        <label><!-- Subject to WOF --></label>
+        <name>Subject_to_WOF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submodel --></label>
+        <name>Submodel__c</name>
+    </fields>
+    <fields>
+        <help><!-- (kg) --></help>
+        <label><!-- Tare Weight --></label>
+        <name>Tare_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ticket Number --></label>
+        <name>Ticket_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Of Issue For Latest Licence --></label>
+        <name>Time_Of_Issue_For_Latest_Licence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trading As/Representing --></label>
+        <name>Trading_As_Representing__c</name>
+    </fields>
+    <fields>
+        <label><!-- VIN --></label>
+        <name>VIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Type --></label>
+        <name>Vehicle_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Usage --></label>
+        <name>Vehicle_Usage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wheelbase --></label>
+        <name>Wheelbase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year Of Manufacture --></label>
+        <name>Year_Of_Manufacture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year of first Registration Overseas --></label>
+        <name>Year_of_first_Registration_Overseas__c</name>
+    </fields>
+    <layouts>
+        <layout>MVR Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Raw Data --></label>
+            <section>Raw Data</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

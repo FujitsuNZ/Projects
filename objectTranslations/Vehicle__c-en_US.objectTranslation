@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vehicle</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Vehicles</value>
+    </caseValues>
+    <fields>
+        <label><!-- Accessories Fitted --></label>
+        <name>Accessories_Fitted__c</name>
+        <picklistValues>
+            <masterLabel>Music System</masterLabel>
+            <translation><!-- Music System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rear Camera</masterLabel>
+            <translation><!-- Rear Camera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seat Cover</masterLabel>
+            <translation><!-- Seat Cover --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Body Style --></label>
+        <name>Body_Style__c</name>
+    </fields>
+    <fields>
+        <label><!-- Chassis Number --></label>
+        <name>Chassis_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification --></label>
+        <name>Classification__c</name>
+        <picklistValues>
+            <masterLabel>Off-Road</masterLabel>
+            <translation><!-- Off-Road --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential</masterLabel>
+            <translation><!-- Residential --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date First Registered in NZ --></label>
+        <name>Date_First_Registered_in_NZ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engine Number --></label>
+        <name>Engine_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engine Size --></label>
+        <name>Engine_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fuel Type --></label>
+        <name>Fuel_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Photo Id --></label>
+        <name>Full_Photo_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Photo --></label>
+        <name>Full_Photo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generation --></label>
+        <name>Generation__c</name>
+        <picklistValues>
+            <masterLabel>Fifth Owner</masterLabel>
+            <translation><!-- Fifth Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Owner</masterLabel>
+            <translation><!-- First Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fourth Owner</masterLabel>
+            <translation><!-- Fourth Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Second Owner</masterLabel>
+            <translation><!-- Second Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Owner</masterLabel>
+            <translation><!-- Third Owner --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Information Source --></label>
+        <name>Information_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Number Codes --></label>
+        <name>Key_Number_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Touch Point Date --></label>
+        <name>Last_Touch_Point_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Touch Point From --></label>
+        <name>Last_Touch_Point_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Contact --></label>
+        <name>Marketing_Contact__c</name>
+        <relationshipLabel><!-- Marketing_Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Model Code --></label>
+        <name>Model_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Model Variant Group Name --></label>
+        <name>Model_Variant_Group_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Model Variant Name --></label>
+        <name>Model_Variant_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Doors --></label>
+        <name>Number_of_Doors__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number of Gears --></label>
+        <name>Number_of_Gears__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Seats --></label>
+        <name>Number_of_Seats__c</name>
+    </fields>
+    <fields>
+        <label><!-- Odometer Reading Date --></label>
+        <name>Odometer_Reading_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Odometer Readings --></label>
+        <name>Odometer_Readings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Vehicles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Options --></label>
+        <name>Options__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Code --></label>
+        <name>Product_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Sub Code --></label>
+        <name>Product_SubCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quality --></label>
+        <name>Quality__c</name>
+        <picklistValues>
+            <masterLabel>Heavily Used</masterLabel>
+            <translation><!-- Heavily Used --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Used</masterLabel>
+            <translation><!-- Used --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Registration Active Plate --></label>
+        <name>Registration_Active_Plate__c</name>
+        <relationshipLabel><!-- Vehicles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Registration Plate Date Assigned --></label>
+        <name>Registration_Plate_Date_Assigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Plate Number Text --></label>
+        <name>Registration_Plate_Number_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Plate Number --></label>
+        <name>Registration_Plate_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Plate Status --></label>
+        <name>Registration_Plate_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-Registered</masterLabel>
+            <translation><!-- Re-Registered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scratch Built</masterLabel>
+            <translation><!-- Scratch Built --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Used</masterLabel>
+            <translation><!-- Used --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TMC Codes --></label>
+        <name>TMC_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transmission --></label>
+        <name>Transmission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Number --></label>
+        <name>Unit_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- VIN --></label>
+        <name>VIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- VMS GUID --></label>
+        <name>VMS_GUID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Colours --></label>
+        <name>Vehicle_Colours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Make --></label>
+        <name>Vehicle_Make__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Model --></label>
+        <name>Vehicle_Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Type --></label>
+        <name>Vehicle_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- WOF Expiry Date --></label>
+        <name>WOF_Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year Made --></label>
+        <name>Year_Made__c</name>
+    </fields>
+    <fields>
+        <label><!-- thumbId --></label>
+        <name>thumbId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thumbnail --></label>
+        <name>thumbnail__c</name>
+    </fields>
+    <layouts>
+        <layout>Vehicle Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dynamic Information --></label>
+            <section>Dynamic Information</section>
+        </sections>
+        <sections>
+            <label><!-- Peripheral Information --></label>
+            <section>Peripheral Information</section>
+        </sections>
+        <sections>
+            <label><!-- Registration Plates --></label>
+            <section>Registration Plates</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

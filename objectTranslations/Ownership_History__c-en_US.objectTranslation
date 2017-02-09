@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ownership History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ownerships History</value>
+    </caseValues>
+    <fields>
+        <label><!-- Dealer --></label>
+        <name>Dealer__c</name>
+        <relationshipLabel><!-- Ownerships History (Dealer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Company --></label>
+        <name>Insurance_Company__c</name>
+        <relationshipLabel><!-- Ownerships History (Insurance Company) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ownership Finished --></label>
+        <name>Ownership_Finished__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ownership Start --></label>
+        <name>Ownership_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registered Owner Name --></label>
+        <name>Registered_Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registered Owner --></label>
+        <name>Registered_Owner__c</name>
+        <relationshipLabel><!-- Ownerships History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Make --></label>
+        <name>Vehicle_Make__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Model --></label>
+        <name>Vehicle_Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Plate --></label>
+        <name>Vehicle_Plate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Year --></label>
+        <name>Vehicle_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle --></label>
+        <name>Vehicle__c</name>
+        <relationshipLabel><!-- Ownerships History --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

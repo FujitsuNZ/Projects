@@ -1,0 +1,24 @@
+<aura:component controller="PlateQueueComponentController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes" access="global">
+    
+    <aura:attribute name="pqData" type="List" />
+    <aura:attribute name="plateNumber" type="string"/>
+    <aura:attribute name="startRangeText" type="string"/>
+    <aura:attribute name="numberOfRecords" type="Integer"/>  
+   
+    <lightning:tabset >
+        
+        <!-- ******************** START: Ist TAB ************** --> 
+        <lightning:tab >
+            <aura:set attribute="label">Generate Plate Series</aura:set>
+            <div class="slds-box slds-box--small slds-theme--shade" style="width:40%;" >
+                <ui:inputText aura:id="idStartText"  maxlength="6" label="Starting Plate"  value="{!v.startRangeText}" class="slds-input" />
+                <ui:inputNumber aura:id="idNumberRecords"  label="Number Of Plates" value="{!v.numberOfRecords}" class="slds-input" />
+                <br></br><br></br>
+                <ui:button label="Generate CSV" class="slds-button--brand" press="{!c.doValidatePlateSeries}" />
+            </div>
+        </lightning:tab>
+        
+        
+    </lightning:tabset>    
+    
+</aura:component>

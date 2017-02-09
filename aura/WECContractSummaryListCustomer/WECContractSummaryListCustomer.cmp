@@ -1,0 +1,55 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:hasSObjectName"  controller="WECContractSummaryCtrl">
+    
+    <aura:attribute name="sobjectList"  type="WECContractSummaryCtrl.wrapperClass[]"/>
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute type="Boolean" name="sortAsc"  default="false"/>
+    <aura:attribute type="String" name="sortField" />    
+    <aura:handler name="init" value="{!this}" action="{!c.fetchOwnersAction}" />
+
+    <div class="slds-page-header slds-text-title--caps"><b> Contract(s) </b></div>
+
+    <ui:message aura:id="idMessage" class="slds-hide"  title="Information" severity="info" >
+        No Records Found.
+    </ui:message>    
+    
+    <table class="{!v.sobjectList.length>0?'slds-table slds-table--bordered slds-table--fixed-layout':'slds-hide'}">
+        <thead>
+            <tr class="slds-theme--shade slds-text-title--caps slds-text-heading--label">
+              <th focusable="true" class="slds-is-sortable" scope="col" style="width:10%;" onclick="{!c.sortByRego}"><div class="slds-truncate" >Registration</div></th>                
+              <th focusable="true" class="slds-is-sortable" scope="col" style="width:10%;" onclick="{!c.sortByContract}"><div class="slds-truncate" >Contract ID</div></th>
+              <th focusable="true" class="slds-is-sortable" scope="col" style="width:20%;" onclick="{!c.sortByProduct}"><div class="slds-truncate slds-p-left--x-small" >Product Name</div></th>
+              <th focusable="true" class="slds-is-sortable" scope="col" style="width:20%;" onclick="{!c.sortByCampaign}"><div class="slds-truncate slds-p-left--x-small" >Campaign Name</div></th>          
+               <th focusable="true" class="slds-is-sortable" scope="col" style="width:20%;" onclick="{!c.sortByStatus}"><div class="slds-truncate slds-p-left--x-small" >Status</div></th>
+              <th focusable="true" class="slds-is-sortable" scope="col" style="width:10%;" onclick="{!c.sortByDate}"><div class="slds-truncate slds-p-left--x-small ">Start Date</div></th>
+              <th focusable="true" class="slds-is-sortable slds-text-align--right" scope="col" style="width:10%;" onclick="{!c.sortByPrice}"><div class="slds-truncate" >Product Price</div></th>
+              <th focusable="true" class="slds-is-sortable slds-text-align--center" scope="col" style="width:10%;" onclick="{!c.sortByAgent}"><div class="slds-truncate" >Retail Agent</div></th>                 
+                   
+            </tr>   
+      </thead> 
+      <tbody>
+      <aura:iteration items="{!v.sobjectList}" var="v" >
+          
+            <aura:if isTrue="{!v.Error}">
+                <br></br>
+                     <ui:outputText class="slds-text-color--error slds-text-align--center" value="{!v.ErrorMsg}" /><br></br>               
+                <br></br>
+            <aura:set attribute="else">
+
+                <tr class="slds-text-title--caps">
+                      <td class="slds-truncate"  style="width:10%;"><ui:outputText value="{!v.Registration}"/></td>
+                     <td class="slds-truncate"  style="width:10%;"><ui:outputText value="{!v.ContractID}"/></td>
+                     <td class="slds-truncate"  style="width:20%;"><ui:outputText title="{!v.ProductName}" value="{!v.ProductName}"/> </td>
+                     <td class="slds-truncate"  style="width:20%;"><ui:outputText title="{!v.CampaignName}" value="{!v.CampaignName}"/> </td>                    
+                     <td class="slds-truncate"  style="width:20%;"><ui:outputText value="{!v.ContractStatus}"/></td>
+                     <td class="slds-truncate"  style="width:10%;"><ui:outputDate value="{!v.StartDate}"/></td>
+                     <td class="slds-truncate slds-text-align--right"  style="width:10%;"><ui:outputCurrency value="{!v.ProductPrice}"/> </td>
+                     <td class="slds-truncate slds-text-align--center"  style="width:10%;"><ui:outputText value="{!v.SellingRetailAgentCode}"/></td>
+                 </tr>                
+                            
+          </aura:set>
+          </aura:if>
+        </aura:iteration>
+       </tbody>      
+    </table>
+    
+</aura:component>

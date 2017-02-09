@@ -1,0 +1,21 @@
+<aura:component >
+    <aura:attribute name="searchResult" type="SearchBotController.wrapperClass"/>
+
+    <div class="slds-card">
+
+            <header class="slds-card__header slds-grid grid--flex-spread">
+                <a aura:id="reference" href="{!'/one/one.app#/sObject/' + v.searchResult.resultId + '/view'}">
+                    <h3>{!v.searchResult.resultName}</h3>
+                </a>
+            </header>
+
+            <section class="slds-card__body">
+                <div class="slds-tile slds-hint-parent">
+                    <p class="slds-tile__title slds-wrap slds-p-left--small"> 
+                        <ui:outputText value="{!v.searchResult.resultText}"/>
+                    </p>
+                </div>
+            </section>
+        </div>
+
+</aura:component>
